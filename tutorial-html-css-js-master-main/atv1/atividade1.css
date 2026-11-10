@@ -1,0 +1,24 @@
+main {
+    background-color: rgb(254, 254, 254);
+    height: 500px;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border-color: rgb(0, 0, 0);
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+td, th {
+    padding: 5px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

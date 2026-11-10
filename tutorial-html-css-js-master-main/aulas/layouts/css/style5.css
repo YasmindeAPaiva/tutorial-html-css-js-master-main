@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'PixelGame';
+    /* Sai da pasta css, entra na pasta Press_Start_2P e lê o arquivo .ttf */
+    src: url('../Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+}
+    
+#page1 {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(202, 209, 231);
+}
+
+#header {
+    height: 100px;
+    background-color: rgb(100, 60, 119);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#block1 {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(159, 116, 209);
+}
+
+#block2 {
+    width: 450px;
+    height: 70px;
+    background-color: rgb(159, 116, 209);
+}
+
+#main-content1 {
+    height: calc(100% - 100px);
+    background-color: rgb(198, 195, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    gap: 70px;
+    position: relative;
+}
+
+#main-content1 h1 {
+    position: absolute;
+    top: 40px;
+    font-family: 'PixelGame', monospace !important;
+    font-size: 40px; 
+    color: rgb(173, 129, 196);
+    letter-spacing: 1px; 
+    -webkit-text-stroke: 1px rgb(78, 44, 94); 
+}
+ 
+#content1 {
+    display: flex;
+    width: 700px;
+    height: 250px;
+    background-color: rgb(209, 103, 204);
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgb(79, 44, 95);
+    box-shadow: inset 0 0 0 25px rgb(218, 140, 214);
+}
+
+#content2 {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(209, 103, 204);
+}
+
+#page2 {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom, #7584b6, #744c8f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#img1 {
+    width: 320px;
+    height: 420px;
+    background-color: rgb(103, 45, 168);
+}
+
+#img2 {
+    width: 320px;
+    height: 420px;
+    background-color: rgb(103, 45, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gifcat {
+  width: 320px;       
+  height: auto;      
+  object-fit: cover;
+}
+
+#img3 {
+    width: 320px;
+    height: 420px;
+    background-color: rgb(103, 45, 168);
+}
+
+#page3 {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(100, 60, 119);
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainblock3 {
+    display: flex;
+    align-items: center;
+}
+
+#block3 {
+    width: 600px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, #e6c9b8, #846cac);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#water-cat {
+  width: 430px;       
+  height: auto;      
+  object-fit: cover;
+  border: 2px solid rgb(71, 73, 99);
+}
+
+#mainblock4-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    gap: 70px;   
+}
+
+#block4 {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(204, 140, 201);
+}
+
+#block5 {
+    width: 340px;
+    height: 100px;
+    background-color: rgb(204, 140, 201);
+}
+
+#page4 {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(117, 132, 182);
+    align-items: center;
+    justify-content: center;
+}
+
+#mainblock6-7 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+#block6 {
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(34, 39, 107);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#circle1 {
+    display: flex;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(142, 62, 167);
+    border-radius: 50%;
+    border: 4px solid rgb(72, 23, 87);
+    align-items: center;
+    justify-content: center;
+}
+
+#rectangle1 {
+    display: flex;
+    width: 260px;
+    height: 60px;
+    background-color: rgb(115, 117, 150);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#rectangle1 p {
+    color: rgb(225, 221, 250);             
+    font-size: 17px;       
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;     
+    text-align: start;     
+}
+
+
+#block7 {
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(34, 39, 107);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+#circle2 {
+    display: flex;
+    width: 130px;
+    height:130px;
+    background-color: rgb(142, 62, 167);
+    border-radius: 50%;
+    border: 4px solid rgb(72, 23, 87);
+    align-items: center;
+    justify-content: center;
+}
+
+#rectangle2 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(115, 117, 150);
+}
+
+#page5 {
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(100, 60, 119);
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainblock11-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;   
+}
+
+#block11 {
+    width: 400px;
+    height: 740px;
+    background-image: linear-gradient(to bottom, #5366bd, #182870);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shakecat {
+  width: 280px;       
+  height: auto;      
+  object-fit: cover;
+}
+
+#block12 {
+    width: 400px;
+    height: 740px;
+    background-image: linear-gradient(to bottom, #5366bd, #182870);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rowcat {
+  width: 330px;       
+  height: auto;      
+  object-fit: cover;
+}
+
+#mainblock13-14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    gap: 350px;
+    padding: 0 90px;
+}
+
+#block13 {
+    width: 600px;
+    height: 170px;
+    background-color: rgb(189, 81, 171);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 10px solid rgb(161, 44, 156);
+    border-image: linear-gradient(to top, #5b267a, #a825ac, #da40c5) 1;
+}
+
+#block13 h1 {
+    font-family: 'PixelGame', monospace !important;
+    font-size: 20px; 
+    color: rgb(224, 177, 218);
+    letter-spacing: 1px;   
+    margin-bottom: 1px;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+#block13 p {
+    font-family: 'PixelGame', monospace !important;
+    font-size: 10px; 
+    color: rgb(97, 44, 89);
+    letter-spacing: 0.8px;    
+    line-height: 1.3; 
+    margin: 5px;
+    padding: 0 2px; 
+}
+
+#block13 h3 {
+    font-family: 'PixelGame', monospace !important;
+    font-size: 14px; 
+    color: rgb(104, 219, 91);
+    letter-spacing: 1px;    
+    align-self: flex-end; 
+    margin: 8px;
+    padding: 0 2px; 
+
+}
+
+#block13 h5 {
+    font-family: 'PixelGame', monospace !important;
+    font-size: 11px; 
+    color: rgb(117, 44, 44);
+    letter-spacing: 1px;    
+    text-decoration: line-through;
+    align-self: flex-end; 
+    margin: 8px;
+    padding: 0 2px; 
+}
+
+#block14 {
+    width: 600px;
+    height: 180px;
+    background-color: rgb(200, 149, 216);
+}

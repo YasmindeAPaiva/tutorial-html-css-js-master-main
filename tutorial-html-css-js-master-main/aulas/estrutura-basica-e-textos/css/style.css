@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(223, 173, 229);
+}
+
+h1 {
+    color: rgb(197, 51, 51);
+   background-color: rgb(236, 130, 231); 
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}

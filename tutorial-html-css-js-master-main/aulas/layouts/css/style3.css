@@ -1,0 +1,37 @@
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(47, 181, 243);
+}
+
+#page {
+    ;
+}
+
+#sidebar {
+    width: calc(100% - 700px);
+    height: 500px;
+    background-color: rgb(245, 233, 61);
+}
+
+#main {
+       display: flex;
+}
+
+#content {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(221, 75, 160);
+}
+
+#content2 {
+    width: calc(100% - 700px);
+    height:500px;
+    background-color: rgb(21, 24, 233);
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(196, 36, 44);
+}

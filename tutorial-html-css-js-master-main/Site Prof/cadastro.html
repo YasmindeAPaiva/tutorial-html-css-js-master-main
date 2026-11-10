@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IF Investments</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="wrapper">
+                <div id="logo">
+                    <img src="/img/piggybank-pig-svgrepo-com.svg" alt="Logo IF Investments">
+                    <h1>IF <span>Investments</span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bolsas.html">Bolsas</a></li>
+                        <li><a href="cadastro.html" class="active">Cadastro</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <h1>Cadastro</h1>
+                <form>
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <label for="nameUser">Nome: </label>
+                        <input type="text" name="nameUser" placeholder="Digite aqui...">
+
+                        <label for="surnameUser">Sobrenome: </label>
+                        <input type="text" name="surnameUser" placeholder="Digite aqui...">
+
+                        <label for="surnameUser">CPF: </label>
+                        <input type="text" name="surnameUser" placeholder="Ex: 123.456.789-00">
+
+                        <label for="phoneUser">Telefone: </label>
+                        <input type="text" name="phoneUser" placeholder="Digite aqui...">
+
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Dados de Acesso</legend>
+                        <label for="emailUser">Email: </label>
+                        <input type="text" name="emailUser" placeholder="Ex: email@gmail.com">
+
+                        <label for="passwordUser">Senha: </label>
+                        <input type="password" name="passwordUser">
+                    </fieldset>
+
+                    <h3>Qual seu perfil de investidor?</h3>
+                    <div>
+                        <input type="radio" name="perfilInvestidor" id="conservador" value="conservador">
+                        <label for="conservador">Conservador</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="perfilInvestidor" id="moderado" value="moderado">
+                        <label for="moderado">Moderado</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="perfilInvestidor" id="arrojado" value="arrojado">
+                        <label for="arrojado">Arrojado</label>
+                    </div>
+
+                    <h3>Por quanto tempo você pretende deixar o seu dinheiro investido?</h3>
+                    <div>
+                        <input type="radio" name="tempoInvestimento" id="curtoPrazo" value="curto">
+                        <label for="conservador">Curto prazo (até 1 ano)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="tempoInvestimento" id="medioPrazo" value="medio">
+                        <label for="moderado">Médio prazo (de 1 a 5 anos)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="tempoInvestimento" id="longoPrazo" value="longo">
+                        <label for="arrojado">Longo prazo (mais de 5 anos)</label>
+                    </div>
+
+                    <h3>Em quais tipos de investimento você tem interesse?</h3>
+                    <div>
+                        <input type="checkbox" name="investimentos[]" id="rendaFixa" value="rf">
+                        <label for="rendaFixa">Renda Fixa</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="investimentos[]" id="rendaVariavel" value="rv">
+                        <label for="rendaVariavel">Renda Variável</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="investimentos[]" id="fundosImobiliarios" value="fi">
+                        <label for="fundosImobiliarios">Fundos Imobiliários</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="investimentos[]" id="criptoativos" value="ca">
+                        <label for="criptoativos">Criptoativos</label>
+                    </div>
+
+                    <fieldset>
+                        <legend>Endereço</legend>
+
+                        <label for="estadolUser">Estado: </label>
+                        <select name="estadolUser" id="estadolUser">
+                                <option value="sp">São Paulo</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="es">Espírito Santo</option>
+                        </select>
+
+                        <label for="cidadeUser">Cidade: </label>
+                        <input type="text" name="cidadeUser" id="cidadeUser" placeholder="Ex: Caraguatatuba...">
+
+                        <label for="ruaUser">Rua: </label>
+                        <input type="text" name="streetUser" id="streetUser" placeholder="Ex: Rua dos Ipês...">
+                    
+                        <label for="cidadeUser">Complemento: </label>
+                        <input type="text" name="complementoEndereçoUser" id="complementoEndereçoUser" placeholder="Ex: casa A, Fundos...">
+
+                        <label for="cidadeUser">CEP: </label>
+                        <input type="text" name="CEPEndereçoUser" id="CEPEndereçoUser" placeholder="Ex: 12.345.678...">
+
+                    </fieldset>
+
+                        <laber for="investimentsGoalUser">Objetivo de Investimento: </laber>
+                        <textarea name="investimentsGoalUser" id="investimentsGoalUser" placeholder="Descreva seu objetivo de investimento..."></textarea>
+                        
+                    <h4>Você concorda com os termos de uso deste site?</h4>
+                        <div>
+                            <input type="checkbox" name="termosUSo[]" id="termosUSo" required>
+                            <label for="termosUSo[]" class="texto-pequeno" >Li e estou de acordo com os <strong>Termos de Uso</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="receberPromocoes[]" id="receberPromocoes">
+                            <label for="receberPromocoes" class="texto-pequeno">Desejo receber novidades, ofertas e promoções exclusivas por e-mail.</label>
+                        </div>
+
+                        <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper">
+            </div>
+        </footer>
+    </body>
+</html>

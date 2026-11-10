@@ -1,0 +1,175 @@
+html, body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+body > header {
+    background-color: rgb(31, 23, 34);
+    height: 100px;
+    color: rgb(219, 194, 224);
+}
+
+.wrapper {
+    width: 1400px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+body > header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo img{
+    width: 60px;
+    height: 60px;
+}
+
+logo h1 {
+    font-size: 26px;
+    margin: 5px 0 0 0;
+}
+
+#logo h1 span {
+    color: #f9b92f;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: rgb(219, 194, 224);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #dfa018;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    color: #dabb7a
+}
+
+main {
+    background-color: rgb(80, 37, 80);
+    min-height: 500px;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(31, 23, 34);
+    height: 200px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+}
+
+td, th {
+    padding: 10px;
+}
+
+a {
+    color: rgb(223, 219, 179);
+    text-decoration: none;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #9e8aa0;
+}
+
+form label {
+    margin: 20px 0 0 0;
+}
+
+form input, select, textarea {
+    border-radius: 10px;
+    padding: 5px 8px;
+    border: 1px solid rgb(31, 23, 34);
+}
+
+input[type="submit"] {
+    background-color: #dbbc7a;
+    cursor: pointer;
+}
+
+h4 {
+    margin: 1px 0 1px 0;
+}
+
+button {
+    background-color: #dfa018;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#0000006b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal main {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 15px;
+    color: #131313;
+    width: 400px;
+}
+
+.modal main form input[type = "text"], .modal main form input[type = "text"] {
+    border: 1px solid #5554546b
+}
+
+.modal main form input[type = "submit"] {
+    margin: 20px 0 0 0;
+}
+
+
+
+
+
+
